@@ -1,0 +1,68 @@
+1.Take a number N from the user. 
+Print all numbers from 1 to N, identify whether each number is even or odd, and finally display the total count of even and odd numbers.
+
+2.Multiplication Table Generator
+Take a number from the user and print its multiplication table from 1 × N through 10 × N using a for loop. Then modify the program so the ending range can also be supplied by the user.
+
+3.Sum and Average Without sum()
+Given a list of numbers, calculate the total and average using a loop. Do not use Python's built-in sum() function.
+
+4.Find Maximum and Minimum Without max() / min()
+Write a program that finds the largest and smallest values in a list using loops only.
+
+5.Character Frequency Counter
+Take a string from the user and calculate how many times each character occurs. Example: "banana" should identify the frequencies of b, a, and n.
+
+6.Vowel, Consonant, Digit and Space Counter
+Create a program that analyzes a sentence and counts vowels, consonants, digits, spaces, and special characters separately.
+
+7.Prime Number Finder
+Ask the user for a starting and ending number. Print all prime numbers within that range using nested loops.
+
+9.Student Marks Analyzer
+Store marks of multiple students in a list. Using loops, calculate highest marks, lowest marks, average marks, number of students who passed, and number who failed. Consider 40 as the passing mark.
+
+10.ATM Withdrawal Simulator using while
+Start with a balance of ₹10,000. Continuously show the user options to check balance, deposit money, withdraw money, or exit. The program should continue until the user explicitly chooses Exit.
+
+11.Password Retry System
+Store a predefined password and give the user a maximum of three attempts to enter it correctly. Use a while loop. After three incorrect attempts, display "Account Locked".
+
+12. Number Guessing Game
+Generate a random number between 1–100. Keep asking the user to guess until they find the correct number. After each incorrect guess, display "Too High" or "Too Low". Finally display the number of attempts taken.
+
+13.Menu-Driven Calculator
+Build a continuously running calculator using while. Provide Addition, Subtraction, Multiplication, Division, Modulus, and Exit operations. Handle division by zero properly.
+
+14. Create Your Own sum() Function
+Write
+def my_sum(numbers)
+It should accept a list of numbers and return their sum without using Python's built-in sum().
+
+15
+Reusable Number Analysis Function
+Create a function
+
+def analyze_number(number): ...
+
+It should determine whether the number is positive/negative/zero, even/odd, and prime/not prime. Return the results rather than only printing them.
+
+16
+Student Grade Function
+Create a function that accepts marks for five subjects, calculates total and percentage, and returns a grade based on rules you define such as A, B, C, D, or Fail. Add appropriate validation for invalid marks.
+
+17
+Shopping Cart using Functions
+Create functions for add_item(), remove_item(), view_cart(), calculate_total(), and checkout(). Keep the application running using a while loop until checkout or exit.
+
+18
+Employee Salary Calculator
+Create a function that accepts employee name, basic salary, bonus percentage, and tax percentage. Calculate gross salary, tax amount, and final salary. Process at least five employees using a loop.
+
+19
+Bank Account Mini Application
+Create functions for deposit(), withdraw(), check_balance(), and transaction_history(). Use a while loop to keep the banking application running. Prevent withdrawals when sufficient balance is unavailable.
+
+20
+Final Challenge — Student Registration System
+Build a menu-driven application using functions + for loops + while loops. The system should allow users to add a student, view all students, search by ID, update student details, delete a student, calculate class average marks, display the highest-performing student, and exit. Store the records using appropriate Python data structures.
